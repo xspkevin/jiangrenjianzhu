@@ -28,6 +28,7 @@
 <h1><a class="logo-url" href="<?php bloginfo('url')?>"><?php bloginfo('name')?></a></h1>
 <?php endif; ?>
 </div>
+<div class="pull-left"><h3 style="margin: 32px 0 0 15px;"><?php bloginfo('description')?></h3></div>
 <div class="header-menu pull-right">
  <?php wp_nav_menu( array( 'theme_location' => 'main-nav', 'menu_class' => 'header-menu-con', 'container'=>'','fallback_cb' => 'default_menu',) ); ?>
 </div>
